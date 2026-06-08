@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+button{
+  background:#3b82f6;
+  color:white;
+  border:none;
+  padding:10px 20px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#2563eb;
+}
+
+input, textarea{
+  padding:10px;
+  border-radius:8px;
+  border:1px solid gray;
+  width:100%;
+  max-width:500px;
+}
+
+.page{
+  padding:40px;
+}
+
+.card{
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  margin-top:20px;
+}
